@@ -1,0 +1,14 @@
+{
+    "menu":[
+        {"sno":1,"name":"Non Veg Biryanis","img":"../menu/nonvegbiryanis.jpg","price":"$12.99"},
+        {"sno":2,"name":"Veg Biryanis","img":"../menu/vegbiryanis.jpg","price":"$12.99"},
+        {"sno":3,"name":"Non Veg Curries","img":"../menu/novegcurries.jpg","price":"$8.99"},
+        {"sno":4,"name":"Veg Curries","img":"../menu/vegcurries.jpg","price":"$8.99"},
+        {"sno":5,"name":"Pickles","img":"../menu/pickles.jpg","price":"$4.99"},
+        {"sno":6,"name":"Spice Powders","img":"../menu/spicepowders.jpg","price":"$3.99"},
+        {"sno":7,"name":"Batters","img":"../menu/batters.jpg","price":"$3.99"},
+        {"sno":8,"name":"Dabba Services","img":"../menu/dabbaservice.jpg","price":"$12.99"},
+        {"sno":9,"name":"Sweets","img":"../menu/sweets.jpg","price":"$3.99"},
+        {"sno":10,"name":"Snacks","img":"../menu/snacks.jpg","price":"$3.99"}
+    ]
+}

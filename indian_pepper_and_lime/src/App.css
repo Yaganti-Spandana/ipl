@@ -1,38 +1,121 @@
-.App {
+.App{
+  background-color: darkseagreen;
+}
+.navbar{
+  background-color: darkgray;
+  
+}
+.nav{
+display: grid;
+  grid-template-columns: repeat(5, 3fr);
+  grid-gap: 1%;
+  padding:0% 3% 0% 3%;
+}
+.cor{
+display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1%;
+  border-radius:15%;
+}
+.menu{
+  height:5%;
+  width:50%
+}
+.list{
+  padding: 0.5%;
+  display: flex;
+}
+.list li{
+  padding-left:10% ;
+  list-style: none;
+}
+.logo_img{
+  height:2%;
+  width:2%;
+}
+.logo_img img{
+  border-radius: 50%;
+}
+.ul li input{
+  width:150%
+}
+.but{
+  height:15%;
+  background-color:bisque;
+  margin-top: 3.2%;
+}
+.list-ele{
+  margin-top: 3%;
+   padding-left:10% ;
+  list-style: none;
+}
+.list-eles{
+  margin-top: 3%;
+   padding-left:10% ;
+  list-style: none;
+}
+.cardnav{
+  display: flex;
+}
+.car{
+  background-color:aliceblue;
+  border-radius: 20%;
+}
+.head{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.head1{
+  text-align: center;
+  color: chocolate;
+  background-color:darkgreen;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cardimg{
+  height:'70%';
+  border-radius: 20%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.head2{
+  text-align: center;
 }
-
-.App-link {
-  color: #61dafb;
+.foot{
+  background-color: darkgrey;
+  display:flex;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.foot ul li{
+  list-style: none;
+  text-align: center;
+}
+.foot1{
+  margin: 3% 5% 3% 5%;
+}
+.coming{
+display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0.2%;
+  border-radius:15%;
+}
+.coming1{
+  margin: 2% 5% 2% 5%;
+  border-radius: 50%;
+}
+.coming1 h3{
+  text-align: center;
+}
+.coming2{
+display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0.5%;
+  padding: 5% 0% 2% 30%;
+  background-color: black;
+}
+.coming2 button
+{
+  height:10%;
+  width:30%;
+  margin:40% 0% 0% 20%;
+  background-color: cadetblue;
+  border-radius: 50%;
+}
+.about{
+  text-align: center;
 }
