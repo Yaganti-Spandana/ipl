@@ -14,8 +14,9 @@ display: grid;
 .cor{
 display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1%;
+  grid-gap: 3%;
   border-radius:15%;
+  padding: 5% 1% 5% 1%;
 }
 .menu{
   height:5%;
@@ -118,4 +119,25 @@ display: grid;
 }
 .about{
   text-align: center;
+}
+.maina1{
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+  height: 30%;
+}
+.card1{
+  display: flex;
+  width:90%;
+  background-color:darkseagreen;
+}
+.des{
+  text-align: center;
+  margin: 5% 2% 5% 2%;
+}
+.button1{
+  text-align: center;
+  margin: 20% 10% 20% 10%;
+  background-color:bisque;
+  border-radius: 20%
 }

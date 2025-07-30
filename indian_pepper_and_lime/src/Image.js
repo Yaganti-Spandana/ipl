@@ -9,7 +9,7 @@ function Image({content}){
 component="img"
 image={content.img}
 alt={content.name}
-height='70%'
+height='50%'
 /><h2 className='head2'>{content.name}</h2>
 </Card></Link>
     </>
