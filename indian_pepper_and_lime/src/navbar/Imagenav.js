@@ -12,7 +12,7 @@ image={dat.img}
 alt={dat.name}
 className='cardimg'
 /></div>
-</Card><h4 className='head'>{dat.name}</h4><h4 className='head'>Starting at {dat.price}</h4>
+</Card><h2 className='head'>{dat.name}</h2><h2 className='head'>Starting at {dat.price}</h2>
     </div>
     )
 }
