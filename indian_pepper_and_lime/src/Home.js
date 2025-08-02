@@ -7,11 +7,12 @@ import Corousalnav from "./navbar/Corousalnav";
 function Home(){
     return(
         <>
+        <div className="cor1">
         <Navbar></Navbar>
         <Corousalnav dat={data1.menu}></Corousalnav>
         <Corousal data={data2.comp} title="Available Items"></Corousal>
         <Footer></Footer>
-        </>
+        </div></>
     )
 }
 export default Home;

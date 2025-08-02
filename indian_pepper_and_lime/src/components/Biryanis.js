@@ -10,6 +10,7 @@ function Biryanis(){
     var pro=product.filter(item=>item.sno==sno);
     return(
         <>
+        <div className='class3'>
         <Navbar></Navbar>
         <div className='coming'>
         {pro.map((ret)=>(
@@ -23,7 +24,7 @@ alt={ret.name}></CardMedia><h3>{ret.name}</h3>
         </Card></Link>
         </div>
     ))}</div>
-        <Footer></Footer>
+        <Footer></Footer></div>
         </>
     )
 }

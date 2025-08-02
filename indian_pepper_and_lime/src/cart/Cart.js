@@ -16,11 +16,13 @@ function Cart(){
 component="img"
 image={item.img}
 alt={item.des}
-height="20%"
-display="block" className="des"
-/><h3 className="des">{item.des}</h3>
-<h3 className="des">{item.price}</h3>
+/>
+<div className="cur">
+<h3 className="des">{item.name}</h3>
+<h3 className="des">price:{item.price}</h3>
+<button className='button1' onClick={()=>removeFromCart(item)}>Buy Now</button>
 <button className='button1' onClick={()=>removeFromCart(item)}>Remove</button>
+</div>
 </Card><br></br></>
         ))}
         </div>

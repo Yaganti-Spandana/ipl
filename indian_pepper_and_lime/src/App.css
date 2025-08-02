@@ -3,20 +3,19 @@
 }
 .navbar{
   background-color: darkgray;
-  
 }
 .nav{
 display: grid;
   grid-template-columns: repeat(5, 3fr);
-  grid-gap: 1%;
-  padding:0% 3% 0% 3%;
+  grid-gap: 3%;
+  padding:5% 3% 5% 3%;
 }
 .cor{
 display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 3%;
   border-radius:15%;
-  padding: 5% 1% 5% 1%;
+  padding: 5% 5% 5% 5%;
 }
 .menu{
   height:5%;
@@ -81,6 +80,7 @@ display: grid;
 .foot{
   background-color: darkgrey;
   display:flex;
+  margin-top: 20%;
 }
 .foot ul li{
   list-style: none;
@@ -92,8 +92,9 @@ display: grid;
 .coming{
 display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 0.2%;
+  grid-gap: 5%;
   border-radius:15%;
+  padding: 15% 5% 5% 5%;
 }
 .coming1{
   margin: 2% 5% 2% 5%;
@@ -106,8 +107,10 @@ display: grid;
 display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 0.5%;
-  padding: 5% 0% 2% 30%;
-  background-color: black;
+  padding: 15% 0% 0% 30%;
+}
+.di{
+background-color: black;
 }
 .coming2 button
 {
@@ -121,23 +124,31 @@ display: grid;
   text-align: center;
 }
 .maina1{
-  display: flex;
-  flex-direction: column;
-  padding-left: 5%;
-  height: 30%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  padding:5% 5% 5% 5%;
+  height: 10%;
 }
 .card1{
   display: flex;
-  width:90%;
   background-color:darkseagreen;
 }
+
 .des{
   text-align: center;
   margin: 5% 2% 5% 2%;
 }
 .button1{
   text-align: center;
-  margin: 20% 10% 20% 10%;
   background-color:bisque;
-  border-radius: 20%
+  border-radius: 50%;
+  width:100%
+}.cor1{
+  background-color: black;
+}
+.class3{
+  background-color: black;
+}
+.cur{
+  padding: 20% 20% 0% 20%;
 }

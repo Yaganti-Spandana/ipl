@@ -12,6 +12,7 @@ function Biryanisingle(){
     var pros=products.filter(item=>item.id==id);
     return(
         <>
+        <div className='di'>
         <Navbar></Navbar>
         <div className='coming2'>
         {pros.map((retur)=>(
@@ -19,13 +20,17 @@ function Biryanisingle(){
             <div className='coming1'>
        <Card>
             <CardMedia
-            component="img"
-image={retur.img}
-alt={retur.name}></CardMedia><h3>{retur.name}</h3>
-        </Card><h3>{retur.price}</h3>
+            component="video"
+image={retur.vid}
+alt={retur.name}
+autoPlay
+muted
+controls
+></CardMedia><h3>{retur.name}</h3>
+        </Card>
         </div><button onClick={()=>addToCart(retur)}>Add To Cart</button></>
     ))}</div>
-        <Footer></Footer>
+        <Footer></Footer></div>
         </>
     )
 }
