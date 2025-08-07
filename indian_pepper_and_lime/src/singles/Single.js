@@ -3,7 +3,7 @@ import data from '../data/biryani&curries.json';
 import { useParams } from 'react-router-dom';
 import Navbar from '../Navbar';
 import Footer from '../navbar/Footer';
-import { UseCart } from '../cart/Cartcontext';
+import { UseCart}from '../cart/Cartcontext';
 function Biryanisingle(){
     const {addToCart}=UseCart()
     var pros=[];
@@ -26,9 +26,10 @@ alt={retur.name}
 autoPlay
 muted
 controls
-></CardMedia><h3>{retur.name}</h3>
+className='vido'
+></CardMedia><p className='head'>{retur.name}</p><p className='head'>Price:${retur.price}</p>
         </Card>
-        </div><button onClick={()=>addToCart(retur)}>Add To Cart</button></>
+        </div><button onClick={()=>addToCart(retur)}><p>Add To Cart</p></button></>
     ))}</div>
         <Footer></Footer></div>
         </>

@@ -5,8 +5,8 @@ import Footer from "./navbar/Footer";
 import data1 from './data/menu.json';
 import Corousalnav from "./navbar/Corousalnav";
 function Home(){
-    return(
-        <>
+  return (
+    <>
         <div className="cor1">
         <Navbar></Navbar>
         <Corousalnav dat={data1.menu}></Corousalnav>

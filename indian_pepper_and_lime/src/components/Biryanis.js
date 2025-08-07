@@ -20,7 +20,7 @@ function Biryanis(){
             <CardMedia
             component="img"
 image={ret.img}
-alt={ret.name}></CardMedia><h3>{ret.name}</h3>
+alt={ret.name}></CardMedia><p className='head'>{ret.name}</p>
         </Card></Link>
         </div>
     ))}</div>

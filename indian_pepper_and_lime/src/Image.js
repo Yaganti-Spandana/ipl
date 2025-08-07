@@ -10,7 +10,7 @@ component="img"
 image={content.img}
 alt={content.name}
 height='50%'
-/><h2 className='head2'>{content.name}</h2>
+/><p className='head2'>{content.name}</p>
 </Card></Link>
     </>
     )
