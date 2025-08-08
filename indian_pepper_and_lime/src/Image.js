@@ -4,7 +4,7 @@ function Image({content}){
     return(
         <>
         <Link to={`/${content.sno}`}>
-        <Card className='class3'>
+        <Card className='class31'>
             <CardMedia
 component="img"
 image={content.img}
